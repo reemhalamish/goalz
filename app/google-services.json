@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1027870298075",
+    "firebase_url": "https://goalz-97b4e.firebaseio.com",
+    "project_id": "goalz-97b4e",
+    "storage_bucket": "goalz-97b4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027870298075:android:82d167185912488e",
+        "android_client_info": {
+          "package_name": "com.reem.halamish.goalz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027870298075-l3lkm7457cja6ae8cnr94j4hb22imsn2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reem.halamish.goalz",
+            "certificate_hash": "c4634008df807ba87f64c6800d90ab223ba688ab"
+          }
+        },
+        {
+          "client_id": "1027870298075-ivvu6cuss4fujmbf4t89kpnct79badlq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASzpEzfqttSXF4LtOEE94LfUxQOPY8xZo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027870298075-ivvu6cuss4fujmbf4t89kpnct79badlq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

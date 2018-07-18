@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Goalz</string>
+    <string name="facebook_app_id">2108115752809644</string>
+    <string name="fb_login_protocol_scheme">fb2108115752809644</string>
+</resources>
