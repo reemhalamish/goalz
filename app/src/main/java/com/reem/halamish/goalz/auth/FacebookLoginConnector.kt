@@ -13,4 +13,8 @@ class FacebookLoginConnector {
 
         loginState.onNext(token)
     } }
+
+    companion object {
+        @JvmField val instance = FacebookLoginConnector()
+    }
 }

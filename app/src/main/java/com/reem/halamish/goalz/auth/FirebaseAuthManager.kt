@@ -5,7 +5,7 @@ import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 
 
-class FirebaseAuthManager(private val facebook: FacebookLoginConnector) {
+class FirebaseAuthManager(facebook: FacebookLoginConnector = FacebookLoginConnector.instance) {
     private val _connectedUser: PublishSubject<FirebaseUser> = PublishSubject.create()
     var connectedUser: Observable<FirebaseUser> = _connectedUser
 
@@ -26,5 +26,9 @@ class FirebaseAuthManager(private val facebook: FacebookLoginConnector) {
                         }
                     }
         }
+    }
+
+    companion object {
+        @JvmField val instance = FirebaseAuthManager()
     }
 }
